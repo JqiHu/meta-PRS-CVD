@@ -12,7 +12,7 @@ SNP weights for each component PRS are deposited in the PGS Catalog:
 
 ## Formula
 
-For individual \( i \),
+For individual i ,
 
 <img src="https://latex.codecogs.com/svg.image?\mathrm{meta\text{-}PRS}_{\mathrm{CVD},i}=\frac{\beta_{\mathrm{CAD}}Z_{i,\mathrm{CAD}}+\beta_{\mathrm{IS}}Z_{i,\mathrm{IS}}+\beta_{\mathrm{HF}}Z_{i,\mathrm{HF}}}{\sqrt{\beta_{\mathrm{CAD}}^{2}+\beta_{\mathrm{IS}}^{2}+\beta_{\mathrm{HF}}^{2}+2\beta_{\mathrm{CAD}}\beta_{\mathrm{IS}}\rho_{\mathrm{CAD%2CIS}}+2\beta_{\mathrm{CAD}}\beta_{\mathrm{HF}}\rho_{\mathrm{CAD%2CHF}}+2\beta_{\mathrm{IS}}\beta_{\mathrm{HF}}\rho_{\mathrm{IS%2CHF}}}}" />
 
