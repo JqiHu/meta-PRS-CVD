@@ -12,11 +12,29 @@ SNP weights for each component PRS are deposited in the PGS Catalog:
 
 ## Formula
 
-meta-PRS_CVD for individual *i*:
+For individual \( i \),
 
-meta-PRS_CVD,i = (β1 Zi1 + β2 Zi2 + β3 Zi3) / sqrt(β1^2 + β2^2 + β3^2 + 2β1β2ρ12 + 2β1β3ρ13 + 2β2β3ρ23)
+\[
+\text{meta-PRS}_{\mathrm{CVD}, i} =
+\frac{
+\beta_1 Z_{i, \mathrm{CAD}} +
+\beta_2 Z_{i, \mathrm{IS}} +
+\beta_3 Z_{i, \mathrm{HF}}
+}{
+\sqrt{
+\beta_1^2 + \beta_2^2 + \beta_3^2
++ 2\beta_1\beta_2\rho_{\mathrm{CAD,IS}}
++ 2\beta_1\beta_3\rho_{\mathrm{CAD,HF}}
++ 2\beta_2\beta_3\rho_{\mathrm{IS,HF}}
+}
+}
+\]
 
-where Zi1, Zi2, Zi3 are standardized PRS_CAD, PRS_IS, and PRS_HF; β are Cox regression coefficients; and ρ are Pearson correlations between standardized PRS components.
+where:
+
+- \( Z_{i, \mathrm{CAD}} \), \( Z_{i, \mathrm{IS}} \), and \( Z_{i, \mathrm{HF}} \) are standardized PRS components,
+- \( \beta_k \) are Cox regression coefficients,
+- \( \rho_{a,b} \) denotes the Pearson correlation between standardized PRS components.
 
 ## Files
 
