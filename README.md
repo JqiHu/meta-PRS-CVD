@@ -6,7 +6,7 @@ This repository provides parameters to compute the meta-PRS_CVD defined as a lin
 - PRS_HF (heart failure)
 
 SNP weights for each component PRS are deposited in the PGS Catalog:
-- PRS_CAD: PGP000740
+- PRS_CAD: PGS005236
 - PRS_IS: [Available Soon]
 - PRS_HF: [Available Soon]
 
